@@ -8,7 +8,20 @@
 (function() {
   "use strict";
 
-  /**
+ 
+
+  const calculateAgeAndYears = () => {
+    const year= 1994;
+    const yearsOld = document.getElementById('yearOld');
+    const yearCurrentCredits = document.getElementById('yearCurrent');
+    let yearCurrent = new Date().getFullYear();
+    yearsOld.textContent=yearCurrent-year;
+    yearCurrentCredits.textContent = yearCurrent;
+  };
+
+  calculateAgeAndYears();
+  
+    /**
    * Easy selector helper function
    */
   const select = (el, all = false) => {
