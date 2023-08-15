@@ -1,6 +1,6 @@
-Thanks for downloading this template!
+Bienvenido a mi portafolio
+Este es mi portafolio, donde puedes encontrar mi trabajo en programación y diseño . Espero que disfrutes explorando mi trabajo y que encuentres algo que te inspire.
 
-Template Name: iPortfolio
-Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Gracias por visitar mi portafolio!
+
+Espero que te ayude!
