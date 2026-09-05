@@ -11,12 +11,12 @@
  
 
   const calculateAgeAndYears = () => {
-    const year= 1994;
+    const year = 1994;
     const yearsOld = document.getElementById('yearOld');
     const yearCurrentCredits = document.getElementById('yearCurrent');
     let yearCurrent = new Date().getFullYear();
-    yearsOld.textContent=yearCurrent-year;
-    yearCurrentCredits.textContent = yearCurrent;
+    if (yearsOld) yearsOld.textContent = yearCurrent - year;
+    if (yearCurrentCredits) yearCurrentCredits.textContent = yearCurrent;
   };
 
   calculateAgeAndYears();
@@ -141,19 +141,11 @@
 
   /**
    * Hero type effect
+   *
+   * Owned by assets/js/i18n.js, which has to restart it when the language
+   * changes. Initialising it here too would run two Typed instances on the
+   * same element.
    */
-  const typed = select('.typed')
-  if (typed) {
-    let typed_strings = typed.getAttribute('data-typed-items')
-    typed_strings = typed_strings.split(',')
-    new Typed('.typed', {
-      strings: typed_strings,
-      loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000
-    });
-  }
 
   /**
    * Skills animation

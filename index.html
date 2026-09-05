@@ -5,11 +5,9 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>
-    {Portfolio Lázaro Pérez}
-  </title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Lázaro Pérez — Software Development Engineer</title>
+  <meta content="Software Development Engineer based in Coruña, Spain. Enterprise system modernization, software architecture and REST/SOAP API integration." name="description">
+  <meta content="Lázaro Pérez, Software Development Engineer, Full-Stack Developer, Laravel, Spring Boot, Laminas, Docker, API integration, Coruña" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -38,53 +36,67 @@
   <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
+  <!-- Language switch, mirrored outside the off-canvas sidebar for small screens -->
+  <div class="lang-switch lang-switch-floating d-xl-none" role="group" aria-label="Language">
+    <button type="button" class="lang-btn active" data-lang="en">EN</button>
+    <button type="button" class="lang-btn" data-lang="es">ES</button>
+  </div>
+
   <!-- ======= Header ======= -->
   <header id="header">
-    <div class="d-flex flex-column">
+    <div class="d-flex flex-column h-100">
 
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <img src="assets/img/profile-img.jpg" alt="Lázaro Pérez" class="img-fluid rounded-circle">
         <h1 class="text-light">
           <a href="index.html">Lázaro Pérez</a>
         </h1>
+        <p class="profile-role" data-i18n="profile.role">Software Development Engineer</p>
         <div class="social-links mt-3 text-center">
-          <!-- <a href="#" class="twitter">
-            <i class="bx bxl-twitter"></i>
-          </a>
-          <a href="#" class="facebook">
-            <i class="bx bxl-facebook"></i>
-          </a>
-          <a href="#" class="instagram">
-            <i class="bx bxl-instagram"></i>
-          </a>
-          <a href="#" class="google-plus">
-            <i class="bx bxl-skype"></i>
-          </a> -->
-          <a href="https://www.linkedin.com/in/beljpr/"  target="_blank" class="linkedin">
+          <a href="https://www.linkedin.com/in/lazaro-perez-sd/" target="_blank" rel="noopener" class="linkedin"
+            aria-label="LinkedIn">
             <i class="bx bxl-linkedin"></i>
           </a>
-          <a href="https://www.behance.net/engineerljpr" target="_blank" class="linkedin">
+          <a href="https://github.com/cyberblock" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="https://www.behance.net/engineerljpr" target="_blank" rel="noopener" aria-label="Behance">
             <i class="bi bi-behance"></i>
           </a>
-          <a href="https://drive.google.com/file/d/1cQ71W8rMowzjFV_9YE4NFJ8gEkbFHJeU/view?usp=drive_link"
-          target="_blank" class="linkedin" >
-          <i class="bi bi-cloud-arrow-down"></i>
-        </a>
+          <a data-cv-link href="https://drive.google.com/file/d/1NSNz3xb3n5yRvxEUv8sly80ucPqWb6rh/view?usp=drive_link"
+            target="_blank" rel="noopener" aria-label="Download CV">
+            <i class="bi bi-cloud-arrow-down"></i>
+          </a>
         </div>
       </div>
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i><span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i><span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i><span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i
-                class="bx bx-book-content"></i><span>Portfolio</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i><span>Services</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i><span>Contact</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i><span
+                data-i18n="nav.home">Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i><span
+                data-i18n="nav.about">About</span></a></li>
+          <li><a href="#experience" class="nav-link scrollto"><i class="bx bx-briefcase"></i><span
+                data-i18n="nav.experience">Experience</span></a></li>
+          <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-code-alt"></i><span
+                data-i18n="nav.skills">Skills</span></a></li>
+          <li><a href="#work" class="nav-link scrollto"><i class="bx bx-grid-alt"></i><span
+                data-i18n="nav.work">Work</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i><span
+                data-i18n="nav.services">Services</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i><span
+                data-i18n="nav.contact">Contact</span></a></li>
         </ul>
       </nav>
       <!-- .nav-menu -->
+
+      <div class="lang-switch-wrap">
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" class="lang-btn active" data-lang="en">EN</button>
+          <button type="button" class="lang-btn" data-lang="es">ES</button>
+        </div>
+      </div>
+
     </div>
   </header>
   <!-- End Header -->
@@ -92,11 +104,40 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
+      <p class="hero-eyebrow" data-i18n="hero.eyebrow">Coruña, Spain · Open to new roles</p>
+
       <h1>Lázaro Pérez</h1>
-      <p>I'm
-        <span class="typed" data-typed-items="Software Developer, Computer Engineer"></span>
+
+      <p class="hero-line"><span data-i18n="hero.lead">I build</span>
+        <span class="typed" data-typed-items="enterprise software, APIs that connect systems, resilient backends"></span>
       </p>
-      <a href="#portfolio" class="hero-cta scrollto">View My Work</a>
+
+      <p class="hero-summary" data-i18n="hero.summary">Software Development Engineer with 8+ years modernizing
+        enterprise systems — framework migrations with zero downtime, hexagonal architecture and DDD, and REST/SOAP
+        integrations that connect ERPs, CRMs and payment platforms.</p>
+
+      <div class="hero-actions">
+        <a href="#work" class="hero-cta scrollto" data-i18n="hero.cta.work">View my work</a>
+        <a data-cv-link href="https://drive.google.com/file/d/1NSNz3xb3n5yRvxEUv8sly80ucPqWb6rh/view?usp=drive_link" target="_blank"
+          rel="noopener" class="hero-cta-ghost">
+          <i class="bi bi-download"></i><span data-i18n="hero.cta.cv">Download CV</span>
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="hero-stat-num">8+</span>
+          <span class="hero-stat-label" data-i18n="hero.stat.years">Years of experience</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-num">10+</span>
+          <span class="hero-stat-label" data-i18n="hero.stat.apis">Enterprise APIs integrated</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-num">&minus;60%</span>
+          <span class="hero-stat-label" data-i18n="hero.stat.debt">Technical debt on legacy migration</span>
+        </div>
+      </div>
     </div>
   </section>
   <!-- End Hero -->
@@ -108,38 +149,49 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>About</h2>
-          <p>
-            Ingeniero informático y programador apasionado. Experto en desarrollo de soluciones innovadoras. Amante de
-            los desafíos técnicos y el trabajo en equipo.
-          </p>
+          <h2 data-i18n="about.title">About</h2>
+          <p data-i18n="about.subtitle">Computer engineer and software developer based in Coruña. I design and modernize
+            the systems businesses run on every day.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid rounded-circle" alt="">
+            <img src="assets/img/profile-img.jpg" class="img-fluid rounded-circle" alt="Lázaro Pérez">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Full-Stack Developer</h3>
-            <!-- <p class="fst-italic">
-                                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                          magna aliqua.
-                                        </p> -->
-            <div class="row">
+            <h3>Software Development Engineer</h3>
+
+            <p class="status-badge">
+              <span class="status-dot"></span>
+              <span data-i18n="about.status">Currently at Netex Learning · Open to new roles</span>
+            </p>
+
+            <p data-i18n="about.p1">Eight years across software architecture, full-stack development and enterprise
+              system modernization. I take legacy platforms that can't afford downtime and move them forward —
+              progressive framework migrations, containerized environments, and clean boundaries between domain and
+              infrastructure.</p>
+
+            <p data-i18n="about.p2">Most of my work lives where systems meet: RESTful and SOAP integrations with ERPs,
+              CRMs, identity providers and payment gateways. I work with hexagonal architecture, DDD, microservices and
+              Docker, and I care about the query plan as much as the class diagram.</p>
+
+            <div class="row about-facts">
               <div class="col-lg-6">
                 <ul>
-                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-                                                          <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                                                          <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li> -->
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <strong>City:</strong>
-                    <span>La Coruña, Spain</span>
+                    <strong data-i18n="about.fact.location">Location:</strong>
+                    <span data-i18n="about.fact.location.v">Coruña, Spain</span>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <strong>Age:</strong>
-                    <span id="yearOld"></span>
+                    <strong data-i18n="about.fact.experience">Experience:</strong>
+                    <span data-i18n="about.fact.experience.v">8+ years</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong data-i18n="about.fact.education">Education:</strong>
+                    <span>Ingeniería en Informática</span>
                   </li>
                 </ul>
               </div>
@@ -147,13 +199,24 @@
                 <ul>
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <strong>Computer</strong>
-                    <span>Engineer</span>
+                    <strong data-i18n="about.fact.languages">Languages:</strong>
+                    <span data-i18n="about.fact.languages.v">Spanish (native) · English B1</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong data-i18n="about.fact.focus">Focus:</strong>
+                    <span data-i18n="about.fact.focus.v">Architecture · APIs · Legacy modernization</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>LinkedIn:</strong>
+                    <span><a href="https://www.linkedin.com/in/lazaro-perez-sd/" target="_blank"
+                        rel="noopener">in/lazaro-perez-sd</a></span>
                   </li>
                 </ul>
               </div>
             </div>
- 
+
           </div>
         </div>
 
@@ -161,13 +224,254 @@
     </section>
     <!-- End About Section -->
 
+    <!-- ======= Experience Section ======= -->
+    <section id="experience" class="resume section-bg">
+      <div class="container">
+
+        <div class="section-title d-flex flex-wrap justify-content-between align-items-end gap-3">
+          <div>
+            <h2 data-i18n="exp.title">Experience</h2>
+            <p data-i18n="exp.subtitle">Eight years of roles across Spain and Venezuela — from IT support into backend
+              engineering, database work and software architecture.</p>
+          </div>
+          <a data-cv-link href="https://drive.google.com/file/d/1NSNz3xb3n5yRvxEUv8sly80ucPqWb6rh/view?usp=drive_link"
+            target="_blank" rel="noopener" class="btn-outline-gradient">
+            <i class="bi bi-download"></i><span data-i18n="exp.cv">Full CV (PDF)</span>
+          </a>
+        </div>
+
+        <div class="timeline" data-aos="fade-up">
+
+          <div class="tl-item">
+            <div class="tl-head">
+              <h4 class="tl-role">Software Development Engineer</h4>
+              <span class="tl-date"><span data-i18n="exp.netex.date">Oct 2023 — Present</span></span>
+            </div>
+            <p class="tl-where">
+              <strong>Netex Learning</strong>
+              <span data-i18n="exp.netex.where"> · Remote · 3 yr</span>
+              <span class="tl-tag" data-i18n="tag.fulltime">Full-time</span>
+            </p>
+            <ul class="tl-bullets">
+              <li data-i18n="exp.netex.b1">Technical lead on the evolution of the corporate ERP (Workspace) —
+                architectural improvements and performance optimization.</li>
+              <li data-i18n="exp.netex.b2">Progressive migration from Zend Framework to Laminas with backward
+                compatibility and zero downtime.</li>
+              <li data-i18n="exp.netex.b3">Containerized the development and deployment environment with Docker and
+                Docker Compose.</li>
+              <li data-i18n="exp.netex.b4">Enterprise integrations: HubSpot API, Microsoft Dynamics NAV (SOAP) and
+                Microsoft Sign-In (Azure AD, OAuth 2.0 / OpenID Connect) for SSO.</li>
+            </ul>
+            <div class="tl-chips">
+              <span class="tl-chip">Zend Framework</span><span class="tl-chip">Laminas</span><span
+                class="tl-chip">AngularJS</span><span class="tl-chip">Docker</span><span
+                class="tl-chip">MySQL</span><span class="tl-chip">MS SQL Server</span><span class="tl-chip">HubSpot
+                API</span><span class="tl-chip">MS Dynamics NAV</span><span class="tl-chip">Azure AD</span><span
+                class="tl-chip">REST / SOAP</span><span class="tl-chip">GitLab</span><span class="tl-chip">Jira</span>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-head">
+              <h4 class="tl-role tl-company">Ipglobal Tech Hub</h4>
+              <span class="tl-date">Jul 2022 — Oct 2023</span>
+            </div>
+            <p class="tl-where">
+              <span data-i18n="exp.ipglobal.where">A Coruña, Spain · Hybrid · 1 yr 4 mo</span>
+              <span class="tl-tag" data-i18n="tag.fulltime">Full-time</span>
+              <span class="tl-tag" data-i18n="tag.positions">2 positions</span>
+            </p>
+
+            <div class="tl-sub">
+              <div class="tl-head">
+                <h5 class="tl-subrole">Full-Stack Developer</h5>
+                <span class="tl-date-sm"><span data-i18n="exp.ipglobal.fs.date">Jul 2023 — Oct 2023 · 4 mo</span></span>
+              </div>
+              <ul class="tl-bullets">
+                <li data-i18n="exp.ipglobal.fs.b1">Xavou! food-delivery e-commerce in Laravel and Vue.js, with admin
+                  panel and Google Maps geolocation.</li>
+                <li data-i18n="exp.ipglobal.fs.b2">GitLab CI/CD pipelines, JWT authentication and multiple payment
+                  gateways (Stripe, PayPal).</li>
+              </ul>
+              <div class="tl-chips">
+                <span class="tl-chip">Spring Boot</span><span class="tl-chip">Angular</span><span
+                  class="tl-chip">Vue.js</span><span class="tl-chip">GitLab CI/CD</span><span
+                  class="tl-chip">JWT</span><span class="tl-chip">Stripe</span><span class="tl-chip">PayPal</span>
+              </div>
+            </div>
+
+            <div class="tl-sub">
+              <div class="tl-head">
+                <h5 class="tl-subrole">Back-End Developer</h5>
+                <span class="tl-date-sm"><span data-i18n="exp.ipglobal.be.date">Jul 2022 — Jun 2023 · 1 yr</span></span>
+              </div>
+              <ul class="tl-bullets">
+                <li data-i18n="exp.ipglobal.be.b1">Built an e-commerce platform for digital products with payment
+                  gateway and license management, applying DDD and hexagonal architecture on Spring Boot.</li>
+                <li data-i18n="exp.ipglobal.be.b2">WhatsApp web chat on the Vonage API — session management, message
+                  templates and media handling.</li>
+                <li data-i18n="exp.ipglobal.be.b3">CRM with Namecheap API integration automating domain, SSL/TLS
+                  certificate and DNS management.</li>
+                <li data-i18n="exp.ipglobal.be.b4">Real-time Microsoft Teams notifications through Graph API webhooks
+                  and Adaptive Cards.</li>
+              </ul>
+              <div class="tl-chips">
+                <span class="tl-chip">Spring Boot</span><span class="tl-chip">Laravel</span><span
+                  class="tl-chip">PHP</span><span class="tl-chip">MySQL</span><span class="tl-chip">Docker</span><span
+                  class="tl-chip">MS Graph API</span><span class="tl-chip">Vonage API</span><span
+                  class="tl-chip">Namecheap API</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-head">
+              <h4 class="tl-role" data-i18n="exp.elo.role">Web Developer</h4>
+              <span class="tl-date"><span data-i18n="exp.elo.date">Nov 2021 — Jul 2022</span></span>
+            </div>
+            <p class="tl-where">
+              <strong>ELO Technologies S.L.</strong>
+              <span data-i18n="exp.elo.where"> · Vigo, Spain · 9 mo</span>
+              <span class="tl-tag" data-i18n="tag.fulltime">Full-time</span>
+            </p>
+            <ul class="tl-bullets">
+              <li data-i18n="exp.elo.b1">Custom CMS/CRM in native PHP, applying the MVC and Repository patterns.</li>
+              <li data-i18n="exp.elo.b2">Multi-API integration (REST/SOAP) with entertainment platforms, including
+                OAuth, rate limiting and caching.</li>
+              <li data-i18n="exp.elo.b3">Python web scraper with automatic IP rotation over VPN, rotating proxies and
+                anti-bot-detection techniques.</li>
+              <li data-i18n="exp.elo.b4">Dynamic PDF generation microservice with queue workers and CDN storage.</li>
+            </ul>
+            <div class="tl-chips">
+              <span class="tl-chip">Laravel</span><span class="tl-chip">PHP 8</span><span
+                class="tl-chip">MySQL</span><span class="tl-chip">Python</span><span
+                class="tl-chip">Selenium</span><span class="tl-chip">BeautifulSoup</span><span
+                class="tl-chip">OpenVPN</span><span class="tl-chip">FPDF</span><span class="tl-chip">Redis</span>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-head">
+              <h4 class="tl-role" data-i18n="exp.rg2.role">Web Developer</h4>
+              <span class="tl-date"><span data-i18n="exp.rg2.date">Dec 2018 — Jan 2022</span></span>
+            </div>
+            <p class="tl-where">
+              <strong>Servicios RG2, C.A</strong>
+              <span data-i18n="exp.rg2.where"> · Venezuela · 3 yr 2 mo</span>
+              <span class="tl-tag" data-i18n="tag.freelance">Freelance</span>
+            </p>
+            <ul class="tl-bullets">
+              <li data-i18n="exp.rg2.b1">Independent web development for clients, running alongside my in-house roles.
+              </li>
+              <li data-i18n="exp.rg2.b2">[ADD 2–3 REPRESENTATIVE PROJECTS OR CLIENT TYPES]</li>
+            </ul>
+            <div class="tl-chips">
+              <span class="tl-chip" data-i18n="exp.rg2.stack">[ADD STACK]</span>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-head">
+              <h4 class="tl-role" data-i18n="exp.tury.role">Analyst Programmer</h4>
+              <span class="tl-date"><span data-i18n="exp.tury.date">Jul 2021 — Oct 2021</span></span>
+            </div>
+            <p class="tl-where">
+              <strong>TuryLogistics Ecommerce</strong>
+              <span data-i18n="exp.tury.where"> · Galicia, Spain · 4 mo</span>
+              <span class="tl-tag" data-i18n="tag.contract">Contract</span>
+            </p>
+            <ul class="tl-bullets">
+              <li data-i18n="exp.tury.b1">Maintained a legacy warehouse-management system, refactoring modules and
+                optimizing queries.</li>
+              <li data-i18n="exp.tury.b2">Two-way Amazon Seller Central (SP-API) integration automating catalogue, order
+                and stock synchronization in real time.</li>
+            </ul>
+            <div class="tl-chips">
+              <span class="tl-chip">Laravel</span><span class="tl-chip">PHP 7 / 8</span><span
+                class="tl-chip">MySQL</span><span class="tl-chip">Amazon SP-API</span><span
+                class="tl-chip">XML</span><span class="tl-chip">RESTful APIs</span>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-head">
+              <h4 class="tl-role" data-i18n="exp.jorinacha.role">Web Developer &amp; Database Specialist</h4>
+              <span class="tl-date"><span data-i18n="exp.jorinacha.date">Sep 2019 — Jan 2021</span></span>
+            </div>
+            <p class="tl-where">
+              <strong>Inversiones Jorinacha</strong>
+              <span data-i18n="exp.jorinacha.where"> · Caracas, Venezuela · 1 yr 5 mo</span>
+            </p>
+            <ul class="tl-bullets">
+              <li data-i18n="exp.jorinacha.b1">Migrated legacy modules to Laravel under SOLID and MVC, cutting technical
+                debt by more than 60%.</li>
+              <li data-i18n="exp.jorinacha.b2">Implemented SQL Server replication (transactional and merge) for high
+                availability and disaster recovery.</li>
+              <li data-i18n="exp.jorinacha.b3">Built and optimized stored procedures, triggers and advanced T-SQL; SQL
+                Server Agent jobs for index maintenance and backup strategy.</li>
+              <li data-i18n="exp.jorinacha.b4">Two-way integration with the Profit 2K8 ERP through proprietary APIs and
+                stored procedures.</li>
+            </ul>
+            <div class="tl-chips">
+              <span class="tl-chip">Laravel</span><span class="tl-chip">SQL Server 2012 / 2014</span><span
+                class="tl-chip">T-SQL</span><span class="tl-chip">Stored Procedures</span><span
+                class="tl-chip">Replication Services</span><span class="tl-chip">Profit 2K8 API</span>
+            </div>
+          </div>
+
+          <div class="tl-quiet">
+            <p class="tl-quiet-label" data-i18n="exp.earlier">Earlier roles</p>
+            <div class="row g-3">
+              <div class="col-lg-6">
+                <div class="tl-mini">
+                  <div class="tl-mini-head">
+                    <h4 data-i18n="exp.embassy.role">Systems Analyst</h4>
+                    <span data-i18n="exp.embassy.date">Oct 2018 — Jan 2019</span>
+                  </div>
+                  <p class="tl-mini-co">Embassy Suites · Caracas</p>
+                  <p class="tl-mini-desc" data-i18n="exp.embassy.desc">Enterprise IT infrastructure, PRTG monitoring,
+                    WatchGuard firewall (UTM, site-to-site VPN) and Profit 2K8 ERP support.</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="tl-mini">
+                  <div class="tl-mini-head">
+                    <h4 data-i18n="exp.bancaribe.role">Help Desk Support Analyst</h4>
+                    <span data-i18n="exp.bancaribe.date">Apr — Sep 2018</span>
+                  </div>
+                  <p class="tl-mini-co">Bancaribe · Caracas</p>
+                  <p class="tl-mini-desc" data-i18n="exp.bancaribe.desc">Level-2 remote support for corporate
+                    departments and branches nationwide, with SLA-tracked ticket management.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-quiet">
+            <h3 class="resume-title" data-i18n="exp.education">Education</h3>
+            <div class="tl-mini tl-mini-wide">
+              <div class="tl-mini-head">
+                <h4>Ingeniería en Informática</h4>
+                <span class="tl-date">2012 — 2019</span>
+              </div>
+              <p class="tl-mini-co">Universidad Alejandro de Humboldt · Caracas, Venezuela</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Experience Section -->
+
     <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
+    <section id="skills" class="skills">
       <div class="container">
 
         <div class="section-title">
-          <h2>Skills</h2>
-          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+          <h2 data-i18n="skills.title">Skills</h2>
+          <p data-i18n="skills.subtitle">The stack I have shipped production work with, grouped the way I actually use
+            it.</p>
         </div>
 
         <div class="row skills-content">
@@ -175,24 +479,30 @@
           <div class="col-lg-4" data-aos="fade-up">
             <div class="skills-group">
               <p class="skill-category-label cat-lang">
-                <i class="bi bi-code-square"></i> Programming Languages
+                <i class="bi bi-code-square"></i> Backend
               </p>
               <div class="skills-pills-wrap">
-                <span class="skill-pill pill-lang">PHP</span>
+                <span class="skill-pill pill-lang">PHP 8 / 7</span>
+                <span class="skill-pill pill-lang">Laravel</span>
+                <span class="skill-pill pill-lang">Spring Boot</span>
+                <span class="skill-pill pill-lang">Laminas</span>
+                <span class="skill-pill pill-lang">Zend Framework</span>
+                <span class="skill-pill pill-lang">Node.js</span>
                 <span class="skill-pill pill-lang">Python</span>
-                <span class="skill-pill pill-lang">Java</span>
-                <span class="skill-pill pill-lang">JavaScript</span>
-                <span class="skill-pill pill-lang">C/C++</span>
               </div>
             </div>
             <div class="skills-group">
-              <p class="skill-category-label cat-ui">
-                <i class="bi bi-palette"></i> UI Frameworks
+              <p class="skill-category-label cat-additional">
+                <i class="bi bi-diagram-3"></i> <span data-i18n="skills.cat.architecture">Architecture</span>
               </p>
               <div class="skills-pills-wrap">
-                <span class="skill-pill pill-ui">Bootstrap</span>
-                <span class="skill-pill pill-ui">Tailwind CSS</span>
-                <span class="skill-pill pill-ui">Angular Material</span>
+                <span class="skill-pill pill-extra">DDD</span>
+                <span class="skill-pill pill-extra">Hexagonal</span>
+                <span class="skill-pill pill-extra" data-i18n="skills.microservices">Microservices</span>
+                <span class="skill-pill pill-extra">REST / SOAP</span>
+                <span class="skill-pill pill-extra">MVC</span>
+                <span class="skill-pill pill-extra">Repository Pattern</span>
+                <span class="skill-pill pill-extra">SOLID</span>
               </div>
             </div>
           </div>
@@ -200,47 +510,70 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="skills-group">
               <p class="skill-category-label cat-framework">
-                <i class="bi bi-journal-code"></i> Frameworks
+                <i class="bi bi-palette"></i> Frontend
               </p>
               <div class="skills-pills-wrap">
-                <span class="skill-pill pill-framework">Laravel</span>
-                <span class="skill-pill pill-framework">Symfony</span>
-                <span class="skill-pill pill-framework">Spring</span>
-                <span class="skill-pill pill-framework">Django</span>
                 <span class="skill-pill pill-framework">Angular</span>
-                <span class="skill-pill pill-framework">FastAPI</span>
-                <span class="skill-pill pill-framework">React</span>
                 <span class="skill-pill pill-framework">Vue.js</span>
-                <span class="skill-pill pill-framework">Livewire</span>
-                <span class="skill-pill pill-framework">ZendFramework</span>
+                <span class="skill-pill pill-framework">React</span>
                 <span class="skill-pill pill-framework">AngularJS</span>
+                <span class="skill-pill pill-framework">TypeScript</span>
+                <span class="skill-pill pill-framework">JavaScript ES6+</span>
+                <span class="skill-pill pill-framework">Tailwind CSS</span>
+                <span class="skill-pill pill-framework">Bootstrap</span>
+                <span class="skill-pill pill-framework">SASS</span>
+                <span class="skill-pill pill-framework">jQuery</span>
               </div>
             </div>
             <div class="skills-group">
-              <p class="skill-category-label cat-db">
-                <i class="bi bi-database-gear"></i> Databases
+              <p class="skill-category-label cat-ui">
+                <i class="bi bi-hdd-stack"></i> <span data-i18n="skills.cat.devops">DevOps &amp; Tools</span>
               </p>
               <div class="skills-pills-wrap">
-                <span class="skill-pill pill-db">MS SQL Server</span>
-                <span class="skill-pill pill-db">MySQL</span>
-                <span class="skill-pill pill-db">PostgreSQL</span>
+                <span class="skill-pill pill-ui">Docker</span>
+                <span class="skill-pill pill-ui">Docker Compose</span>
+                <span class="skill-pill pill-ui">GitLab CI/CD</span>
+                <span class="skill-pill pill-ui">Git Flow</span>
+                <span class="skill-pill pill-ui">Linux</span>
+                <span class="skill-pill pill-ui">Nginx</span>
+                <span class="skill-pill pill-ui">Apache</span>
+                <span class="skill-pill pill-ui">Jira (Scrum)</span>
+                <span class="skill-pill pill-ui">Postman</span>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="skills-group">
-              <p class="skill-category-label cat-additional">
-                <i class="bi bi-grid-3x3-gap"></i> Additional
+              <p class="skill-category-label cat-db">
+                <i class="bi bi-database-gear"></i> <span data-i18n="skills.cat.databases">Databases</span>
               </p>
               <div class="skills-pills-wrap">
-                <span class="skill-pill pill-extra">Linux</span>
-                <span class="skill-pill pill-extra">Ubuntu</span>
-                <span class="skill-pill pill-extra">CentOS</span>
-                <span class="skill-pill pill-extra">Debian</span>
-                <span class="skill-pill pill-extra">Docker</span>
-                <span class="skill-pill pill-extra">GitLab CI/CD</span>
-                <span class="skill-pill pill-extra">Jira</span>
+                <span class="skill-pill pill-db">SQL Server</span>
+                <span class="skill-pill pill-db">MySQL</span>
+                <span class="skill-pill pill-db">PostgreSQL</span>
+                <span class="skill-pill pill-db">T-SQL</span>
+                <span class="skill-pill pill-db">Stored Procedures</span>
+                <span class="skill-pill pill-db" data-i18n="skills.replication">Replication</span>
+                <span class="skill-pill pill-db" data-i18n="skills.queryopt">Query Optimization</span>
+              </div>
+            </div>
+            <div class="skills-group">
+              <p class="skill-category-label cat-api">
+                <i class="bi bi-plugin"></i> <span data-i18n="skills.cat.apis">APIs &amp; Integrations</span>
+              </p>
+              <div class="skills-pills-wrap">
+                <span class="skill-pill pill-api">OAuth 2.0</span>
+                <span class="skill-pill pill-api">JWT</span>
+                <span class="skill-pill pill-api">Azure AD / OIDC</span>
+                <span class="skill-pill pill-api">MS Graph</span>
+                <span class="skill-pill pill-api">MS Dynamics NAV</span>
+                <span class="skill-pill pill-api">HubSpot</span>
+                <span class="skill-pill pill-api">Amazon SP-API</span>
+                <span class="skill-pill pill-api">Vonage</span>
+                <span class="skill-pill pill-api">Namecheap</span>
+                <span class="skill-pill pill-api">Stripe</span>
+                <span class="skill-pill pill-api">PayPal</span>
               </div>
             </div>
           </div>
@@ -251,281 +584,271 @@
     </section>
     <!-- End Skills Section -->
 
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
+    <!-- ======= Work Section ======= -->
+    <section id="work" class="portfolio section-bg">
       <div class="container">
 
         <div class="section-title">
-          <h2>Resume</h2>
+          <h2 data-i18n="work.title">Work</h2>
+          <p data-i18n="work.subtitle">Systems I have designed, migrated and integrated in production, plus a few things
+            I built on my own time.</p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title mb-5"></h3>
-            <div class="resume-item">
-              <h4>IpGlobgal
-                <i class="bi bi-pin-map  fs-5"></i>
-              </h4>
-              <h5>2022 - Present</h5>
-              <p>
-                <em>Full-Stack</em>
-              </p>
-            </div>
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Ingeniería informática</h4>
-              <h5>2012 - 2019</h5>
-              <p>
-                <em>Universidad Alejandro de Humboldt</em>
-              </p>
-            </div>
-     
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="overflow-auto  h-50 p-2">
+        <p class="block-label" data-i18n="work.professional">Selected professional work</p>
 
+        <div class="row g-4" data-aos="fade-up">
 
-              <div class="resume-item">
-                <h4>Progrmador Web</h4>
-                <h5>2021 - 2022</h5>
-                <p>
-                  <em>ELO TECHNOLOGIES SL</em>
-                </p>
-                <small>
-                  <em>Galicia</em>
-                </small>
+          <div class="col-lg-6">
+            <div class="case-card">
+              <div class="case-head">
+                <span class="case-icon"><i class="bi bi-boxes"></i></span>
+                <div>
+                  <h4 data-i18n="work.erp.title">Workspace ERP modernization</h4>
+                  <p class="case-meta">NETEX LEARNING · 2023 — <span data-i18n="work.present">PRESENT</span></p>
+                </div>
               </div>
-              <div class="resume-item">
-                <h4>Analista Progrmador</h4>
-                <h5>2021 - 2021</h5>
-                <p>
-                  <em>TuryLogistics Ecommerce</em>
-                </p>
-                <small>
-                  <em>Galicia</em>
-                </small>
-              </div>
-              <div class="resume-item">
-                <h4>Progrmador Web</h4>
-                <h5>2019 - 2020</h5>
-                <p>
-                  <em>Inversiones Jorinacha</em>
-                </p>
-                <small>
-                  <em>Venezuela</em>
-                </small>
-              </div>
-              <div class="resume-item">
-                <h4>Analista de sistema</h4>
-                <h5>2018 - 2019</h5>
-                <p>
-                  <em>Embassy Suites</em>
-                </p>
-                <small>
-                  <em>Venezuela</em>
-                </small>
-              </div>
-              <div class="resume-item">
-                <h4>Analista de soporte de centro de asistencia</h4>
-                <h5>2018 - 2018</h5>
-                <p>
-                  <em>Bancaribe</em>
-                </p>
-                <small>
-                  <em>Venezuela</em>
-                </small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <!-- End Resume Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>See some of the projects I have done in my spare time
-          </p>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters"><!-- <li data-filter="*" class="filter-active">All</li>
-                                                  <li data-filter=".filter-app">App</li>
-                                                  <li data-filter=".filter-card">Card</li>
-                                                  <li data-filter=".filter-web">Web</li>-->
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <p class="text-center fs-5 fw-bold">Coffe Blog</p>
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!--<a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>-->
-                <a href="https://eloquent-snyder-e1f05d.netlify.app" target="_blank" class="w-100" title="More Details">
-                  <i class="bx bx-link"></i>
-                </a>
+              <p class="case-desc" data-i18n="work.erp.desc">Progressive migration of a corporate ERP from Zend
+                Framework to Laminas with full backward compatibility and zero downtime, alongside a containerized
+                environment and enterprise SSO through Azure AD.</p>
+              <div class="tl-chips">
+                <span class="tl-chip">Laminas</span><span class="tl-chip">Zend Framework</span><span
+                  class="tl-chip">Docker</span><span class="tl-chip">Azure AD · OIDC</span><span class="tl-chip">HubSpot
+                  API</span><span class="tl-chip">MS Dynamics NAV</span>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <p class="text-center fs-5 fw-bold">Bienes Raices</p>
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="https://gifted-fermat-d6d526.netlify.app/" target="_blank" class="w-100" title="More Details">
-                  <i class="bx bx-link"></i>
-                </a>
+          <div class="col-lg-6">
+            <div class="case-card">
+              <div class="case-head">
+                <span class="case-icon"><i class="bi bi-bag-check"></i></span>
+                <div>
+                  <h4 data-i18n="work.ecom.title">Digital products e-commerce</h4>
+                  <p class="case-meta">IPGLOBAL TECH HUB · 2022 — 2023</p>
+                </div>
+              </div>
+              <p class="case-desc" data-i18n="work.ecom.desc">Sales platform for digital products with payment gateway
+                and license management, built on Spring Boot with domain-driven design and a hexagonal architecture that
+                keeps payment providers at the edges.</p>
+              <div class="tl-chips">
+                <span class="tl-chip">Spring Boot</span><span class="tl-chip">DDD</span><span
+                  class="tl-chip">Hexagonal</span><span class="tl-chip">Stripe</span><span
+                  class="tl-chip">PayPal</span><span class="tl-chip">JWT</span>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <p class="text-center fs-5 fw-bold">Frontend Store</p>
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="https://cyberblock.github.io/FrontendStore/" target="_blank" class="w-100"
-                  title="More Details">
-                  <i class="bx bx-link"></i>
-                </a>
+          <div class="col-lg-6">
+            <div class="case-card">
+              <div class="case-head">
+                <span class="case-icon"><i class="bi bi-geo-alt"></i></span>
+                <div>
+                  <h4>Xavou! <span data-i18n="work.food.title">food delivery</span></h4>
+                  <p class="case-meta">IPGLOBAL TECH HUB · 2023</p>
+                </div>
+              </div>
+              <p class="case-desc" data-i18n="work.food.desc">Food-delivery marketplace in Laravel and Vue.js with a
+                full restaurant admin panel and a geolocation layer on Google Maps for delivery zones and order
+                tracking.</p>
+              <div class="tl-chips">
+                <span class="tl-chip">Laravel</span><span class="tl-chip">Vue.js</span><span
+                  class="tl-chip">MySQL</span><span class="tl-chip">Google Maps API</span><span class="tl-chip">GitLab
+                  CI/CD</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="case-card">
+              <div class="case-head">
+                <span class="case-icon"><i class="bi bi-box-seam"></i></span>
+                <div>
+                  <h4 data-i18n="work.spapi.title">Amazon SP-API catalogue sync</h4>
+                  <p class="case-meta">TURYLOGISTICS ECOMMERCE · 2021</p>
+                </div>
+              </div>
+              <p class="case-desc" data-i18n="work.spapi.desc">Two-way integration with Amazon Seller Central that keeps
+                catalogue, orders and stock synchronized in real time against a legacy warehouse-management system.</p>
+              <div class="tl-chips">
+                <span class="tl-chip">Amazon SP-API</span><span class="tl-chip">Laravel</span><span
+                  class="tl-chip">PHP 8</span><span class="tl-chip">XML</span><span class="tl-chip">MySQL</span>
               </div>
             </div>
           </div>
 
         </div>
-        <div class="text-center" data-aos="fade-up" data-aos-delay="100">
-          <a href="https://www.behance.net/engineerljpr" target="_blank" class="btn-gradient">See other projects</a>
+
+        <p class="block-label mt-5" data-i18n="work.side">Side projects</p>
+
+        <div class="row g-4 side-projects" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6">
+            <a href="https://eloquent-snyder-e1f05d.netlify.app" target="_blank" rel="noopener" class="side-card">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="Coffee Blog">
+              <div class="side-card-body">
+                <div>
+                  <h4>Coffee Blog</h4>
+                  <p data-i18n="work.side.coffee">Static site · HTML, SASS</p>
+                </div>
+                <span class="side-card-go"><i class="bi bi-box-arrow-up-right"></i></span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <a href="https://gifted-fermat-d6d526.netlify.app/" target="_blank" rel="noopener" class="side-card">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="Bienes Raíces">
+              <div class="side-card-body">
+                <div>
+                  <h4>Bienes Raíces</h4>
+                  <p data-i18n="work.side.realestate">Real-estate listings · PHP</p>
+                </div>
+                <span class="side-card-go"><i class="bi bi-box-arrow-up-right"></i></span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <a href="https://cyberblock.github.io/FrontendStore/" target="_blank" rel="noopener" class="side-card">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="Frontend Store">
+              <div class="side-card-body">
+                <div>
+                  <h4>Frontend Store</h4>
+                  <p data-i18n="work.side.store">Storefront UI · JavaScript</p>
+                </div>
+                <span class="side-card-go"><i class="bi bi-box-arrow-up-right"></i></span>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="text-center mt-4" data-aos="fade-up" data-aos-delay="100">
+          <a href="https://github.com/cyberblock" target="_blank" rel="noopener" class="btn-gradient"
+            data-i18n="work.more">See more on GitHub</a>
         </div>
       </div>
     </section>
-    <!-- End Portfolio Section -->
+    <!-- End Work Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container">
 
         <div class="section-title">
-          <h2>Services</h2>
-          <p>
-            If you need help with a project, these are some of the services I can offer you.
-          </p>
+          <h2 data-i18n="services.title">Services</h2>
+          <p data-i18n="services.subtitle">Where I can help, based on what I have actually shipped.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6" data-aos="fade-up">
             <div class="service-card">
-              <div class="icon">
-                <i class="bi bi-arrow-repeat"></i>
-              </div>
-              <h4><a href="">API Integration</a></h4>
-              <p>If you need to integrate an API to your project or develop a bundle to consume that API, I can help you</p>
+              <div class="icon"><i class="bi bi-arrow-repeat"></i></div>
+              <h4 data-i18n="services.legacy.title">Legacy modernization</h4>
+              <p data-i18n="services.legacy.desc">Progressive framework migrations with backward compatibility, so the
+                platform keeps running while it moves forward.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-card">
-              <div class="icon">
-                <i class="bi bi-file-earmark-code"></i>
-              </div>
-              <h4><a href="">Web Development</a></h4>
-              <p>Do you want to develop your business idea or a web system for the management of a business?</p>
+              <div class="icon"><i class="bi bi-plugin"></i></div>
+              <h4 data-i18n="services.api.title">API integration</h4>
+              <p data-i18n="services.api.desc">REST and SOAP integrations with ERPs, CRMs, identity providers and
+                payment gateways — including OAuth 2.0 and SSO.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-card">
-              <div class="icon">
-                <i class="bi bi-phone"></i>
-              </div>
-              <h4><a href="">Mobile Development</a></h4>
-              <p>Hybrid app development</p>
+              <div class="icon"><i class="bi bi-file-earmark-code"></i></div>
+              <h4 data-i18n="services.fullstack.title">Full-stack development</h4>
+              <p data-i18n="services.fullstack.desc">Web platforms end to end — Laravel, Spring Boot or Laminas on the
+                back, Angular, Vue or React on the front.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-card">
-              <div class="icon">
-                <i class="bi bi-minecart-loaded"></i>
-              </div>
-              <h4><a href="">Web Scraping</a></h4>
-              <p>Need extra information for your business model?</p>
+              <div class="icon"><i class="bi bi-database-gear"></i></div>
+              <h4 data-i18n="services.db.title">Databases &amp; performance</h4>
+              <p data-i18n="services.db.desc">Query optimization, stored procedures and SQL Server replication for high
+                availability and disaster recovery.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-card">
-              <div class="icon">
-                <i class="bi bi-database-gear"></i>
-              </div>
-              <h4><a href="">Databases</a></h4>
-              <p>Database administration, standardization, and replication processes</p>
+              <div class="icon"><i class="bi bi-box"></i></div>
+              <h4 data-i18n="services.docker.title">Docker &amp; CI/CD</h4>
+              <p data-i18n="services.docker.desc">Containerized environments with Docker Compose and GitLab pipelines
+                that make deployments repeatable and boring.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-card">
-              <div class="icon">
-                <i class="bi bi-briefcase"></i>
-              </div>
-              <h4><a href="">Consulting</a></h4>
-              <p>Consulting and advice for your projects</p>
+              <div class="icon"><i class="bi bi-robot"></i></div>
+              <h4 data-i18n="services.scraping.title">Scraping &amp; automation</h4>
+              <p data-i18n="services.scraping.desc">Python data-extraction pipelines with proxy rotation and queue
+                workers, for the data your business model needs.</p>
             </div>
           </div>
         </div>
 
       </div>
     </section>
+    <!-- End Services Section -->
 
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="contact-heading" data-i18n="contact.title">Let's work together</h2>
+          <p class="contact-subtext" data-i18n="contact.subtitle">Have a project in mind, or a legacy system that needs
+            a way forward? Send me a message on LinkedIn.</p>
 
-<!-- ======= Contact Section ======= -->
-<section id="contact" class="contact">
-  <div class="container">
-      <div class="text-center">
-        <h2 class="contact-heading">Let's Work Together</h2>
-        <p class="contact-subtext">Have a project in mind? I'd love to hear from you.</p>
-        <a href="mailto:jp275238@gmail.com?subject=Hello%20Lazaro%2C%20I%20contact%20you%20for%20a%20job%20offer"
-          target="_blank" class="text w-100 display-3" style="font-weight: 700;">Contact me
-          <i class="bi bi-envelope-at"></i>
-        </a>
+          <a href="https://www.linkedin.com/in/lazaro-perez-sd/" target="_blank" rel="noopener" class="contact-cta">
+            <i class="bi bi-linkedin"></i><span data-i18n="contact.cta">Connect on LinkedIn</span>
+          </a>
+
+          <div class="contact-meta">
+            <span><i class="bi bi-geo-alt"></i><span data-i18n="contact.location">Coruña, Spain · Remote</span></span>
+            <a href="https://github.com/cyberblock" target="_blank" rel="noopener"><i
+                class="bi bi-github"></i>github.com/cyberblock</a>
+            <a href="https://www.behance.net/engineerljpr" target="_blank" rel="noopener"><i
+                class="bi bi-behance"></i>behance.net/engineerljpr</a>
+          </div>
+        </div>
       </div>
-  </div>
-</section>
-<!-- End Contact Section --></main><!-- End #main --><!-- ======= Footer ======= -->
+    </section>
+    <!-- End Contact Section -->
 
-<footer id="footer">
-  <div class="container text-center">
-    <!-- <iframe 
-    class=""
-    style="border-radius:5px" 
-    src="https://open.spotify.com/embed/playlist/5o2RlJy7mL7lRly2U9Bhqw?utm_source=generator&theme=0" 
-    width="100%" height="100" frameBorder="0" 
-    allowfullscreen="" 
-    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
-    <div class="credits">
-      <small id="yearCurrent"></small>
-      Designed by
-      <a href="#">Me</a>
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container text-center">
+      <div class="credits">
+        &copy; <small id="yearCurrent"></small> Lázaro Pérez ·
+        <span data-i18n="footer.credits">Designed and built by me</span>
+      </div>
     </div>
-  </div>
-</footer><!-- End  Footer --><a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-    class="bi bi-arrow-up-short"></i></a><!-- Vendor JS Files -->
-<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-<script src="assets/vendor/aos/aos.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="assets/vendor/typed.js/typed.umd.js"></script>
-<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script><!-- Template Main JS File -->
-<script src="assets/js/main.js"></script>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Language switcher (must run before main.js so Typed picks up the right strings) -->
+  <script src="assets/js/i18n.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
