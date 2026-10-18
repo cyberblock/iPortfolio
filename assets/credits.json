@@ -1,0 +1,50 @@
+[
+ {
+  "file": "assets/a-coruna-torre-de-hercules-sunset.jpg",
+  "media": "image",
+  "ref": "openverse:12fbd6c1-6570-4f3c-aae5-760b79e6309f",
+  "title": "A coruna torre de hercules sunset",
+  "creator": "Alessio Damato",
+  "creatorUrl": "https://commons.wikimedia.org/wiki/User:Alejo2083",
+  "date": null,
+  "license": "CC BY-SA 3.0",
+  "licenseCode": "by-sa",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "creditRequired": true,
+  "page": "https://commons.wikimedia.org/w/index.php?curid=1944019",
+  "via": "Wikimedia Commons",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/A_coruna_torre_de_hercules_sunset.jpg/1920px-A_coruna_torre_de_hercules_sunset.jpg",
+  "width": 1920,
+  "height": 2560,
+  "bytes": 621367,
+  "credit": "\"A coruna torre de hercules sunset\" by Alessio Damato, CC BY-SA 3.0, via Wikimedia Commons",
+  "notes": [
+   "Share-alike: an altered version (recoloured, combined with other pictures) must be shared under the same licence."
+  ],
+  "saved": "2026-10-18T12:31:43.062Z"
+ },
+ {
+  "file": "assets/torre-de-hercules-la-coruna-espana-2015.jpg",
+  "media": "image",
+  "ref": "commons:44438993",
+  "title": "Torre de Hércules, La Coruña, España, 2015-09-24, DD 12-15 PAN",
+  "creator": "Diego Delso",
+  "creatorUrl": null,
+  "date": "2015-09-24",
+  "license": "CC BY-SA 4.0",
+  "licenseCode": "by-sa",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "creditRequired": true,
+  "page": "https://commons.wikimedia.org/wiki/File:Torre_de_H%C3%A9rcules,_La_Coru%C3%B1a,_Espa%C3%B1a,_2015-09-24,_DD_12-15_PAN.JPG",
+  "via": "Wikimedia Commons",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Torre_de_H%C3%A9rcules%2C_La_Coru%C3%B1a%2C_Espa%C3%B1a%2C_2015-09-24%2C_DD_12-15_PAN.JPG/1920px-Torre_de_H%C3%A9rcules%2C_La_Coru%C3%B1a%2C_Espa%C3%B1a%2C_2015-09-24%2C_DD_12-15_PAN.JPG",
+  "width": 1920,
+  "height": 503,
+  "bytes": 247206,
+  "credit": "\"Torre de Hércules, La Coruña, España, 2015-09-24, DD 12-15 PAN\" by Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
+  "notes": [
+   "Share-alike: an altered version (recoloured, combined with other pictures) must be shared under the same licence."
+  ],
+  "saved": "2026-10-18T12:31:43.684Z"
+ }
+]

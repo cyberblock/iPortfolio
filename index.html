@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Lázaro Pérez — Software Development Engineer</title>
+  <meta content="Software Development Engineer based in Coruña, Spain. Enterprise system modernization, software architecture and REST/SOAP API integration." name="description">
+  <meta content="Lázaro Pérez, Software Development Engineer, Full-Stack Developer, Laravel, Spring Boot, Laminas, Docker, API integration, Coruña" name="keywords">
+  <meta name="theme-color" content="#1c1c1c">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&display=swap" rel="stylesheet">
+
+  <link href="assets/css/site.css" rel="stylesheet">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+
+<body>
+
+  <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+  <!-- Hero: the name as a monument, the rails around it -->
+  <header class="hero" id="top">
+    <div class="hero-band">
+      <p class="hero-name" aria-hidden="true"><span>Lázaro Pérez</span></p>
+      <h1 class="sr-only">Lázaro Pérez, Software Development Engineer</h1>
+    </div>
+
+    <nav class="hero-nav" aria-label="Sections" data-rise style="--i:0">
+      <a href="#experience" data-i18n="nav.experience">Experience</a>
+      <a href="#work" data-i18n="nav.work">Work</a>
+      <a href="#services" data-i18n="nav.services">What I take on</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="hero-left" data-rise style="--i:1">
+      <figure class="hero-portrait">
+        <img src="assets/img/profile-pixel.jpg" width="460" height="460" alt="Pixel-art portrait of Lázaro Pérez">
+      </figure>
+      <div class="hero-facts">
+        <ul>
+          <li data-i18n="hero.fact.role">Software Development Engineer</li>
+          <li data-i18n="hero.fact.place">Coruña, Spain</li>
+          <li data-i18n="hero.fact.lang">Spanish (native), English B1</li>
+          <li data-i18n="hero.fact.edu">Computer Engineering, 2019</li>
+        </ul>
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">English</button>
+          <button type="button" class="lang-btn" data-lang="es" aria-pressed="false">Español</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-centre" data-rise style="--i:2">
+      <figure class="hero-photo">
+        <img src="assets/img/hero-bg.jpg" width="4936" height="1592"
+          alt="The coast of A Coruña from above, with the compass rose beside the Tower of Hercules">
+      </figure>
+      <p class="hero-statement" data-i18n="hero.statement">I modernize the systems a business can’t switch off.</p>
+    </div>
+
+    <ul class="hero-rail" data-rise style="--i:3">
+      <li class="rail-1" data-i18n="hero.rail.1">Eight years shipping to production</li>
+      <li class="rail-2" data-i18n="hero.rail.2">Zend to Laminas with zero downtime</li>
+      <li class="rail-3" data-i18n="hero.rail.3">Ten enterprise APIs and counting</li>
+      <li class="rail-4" data-i18n="hero.rail.4">Now at Netex Learning, open to new opportunities</li>
+      <li class="rail-5">
+        <a data-cv-link class="rail-action"
+          href="https://drive.google.com/file/d/1NSNz3xb3n5yRvxEUv8sly80ucPqWb6rh/view?usp=drive_link"
+          target="_blank" rel="noopener"><span data-i18n="hero.cv">Download my CV</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22"><path d="M12 4v12m0 0l-5-5m5 5l5-5M5 20h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg>
+        </a>
+      </li>
+    </ul>
+  </header>
+
+  <!-- The signature move: one line about the tower, travelling -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span data-i18n="marquee">Lit since the second century. Rebuilt in 1788. Never switched off.</span>
+      <span data-i18n="marquee">Lit since the second century. Rebuilt in 1788. Never switched off.</span>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- About: a pinned title, pictures passing behind it -->
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="about-pin">
+        <h2 id="about-title" class="about-title" data-i18n="about.title">Still running</h2>
+      </div>
+
+      <figure class="pass pass-a" data-reveal>
+        <img src="assets/img/profile-pixel.jpg" width="460" height="460" loading="lazy" alt="Pixel-art portrait of Lázaro Pérez">
+        <figcaption>
+          <strong>Lázaro Pérez</strong>
+          <span data-i18n="about.a.role">Software Development Engineer</span>
+          <p data-i18n="about.a.text">Eight years across software architecture, full-stack work and system modernization. I move legacy platforms forward without taking them offline.</p>
+        </figcaption>
+      </figure>
+
+      <figure class="pass pass-b" data-reveal>
+        <img src="assets/a-coruna-torre-de-hercules-sunset.jpg" width="1920" height="2560" loading="lazy"
+          alt="The Tower of Hercules in A Coruña at sunset">
+        <figcaption>
+          <strong>Torre de Hércules</strong>
+          <span data-i18n="about.b.role">A Coruña, second century, rebuilt 1788</span>
+          <p data-i18n="about.b.text">A Roman lighthouse, modernized around its original core and never switched off. It is the standard I hold every migration to.</p>
+        </figcaption>
+      </figure>
+
+      <figure class="pass pass-c" data-reveal>
+        <img src="assets/torre-de-hercules-la-coruna-espana-2015.jpg" width="1920" height="503" loading="lazy"
+          alt="The headland of the Tower of Hercules over the Atlantic">
+        <figcaption>
+          <strong data-i18n="about.c.name">Where systems meet</strong>
+          <span data-i18n="about.c.role">REST, SOAP, OAuth 2.0, DDD</span>
+          <p data-i18n="about.c.text">Most of my work sits at the edges: ERPs, CRMs, identity providers and payment gateways, joined with hexagonal architecture so the core stays clean.</p>
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- Experience: a line-up at one type size, plus the year dial -->
+    <section class="exp" id="experience" aria-labelledby="exp-title">
+      <div class="exp-head">
+        <h2 id="exp-title" data-i18n="exp.title">Eight years, still on</h2>
+        <div class="dial" data-dial hidden>
+          <label for="year" data-i18n="exp.dial">Pick a year to see what I was keeping running</label>
+          <div class="dial-row">
+            <input type="range" id="year" min="2018" max="2026" step="1" value="2026">
+            <output for="year" class="dial-year">2026</output>
+          </div>
+          <p class="dial-read" aria-live="polite"></p>
+        </div>
+      </div>
+
+      <div class="log" data-log>
+        <svg class="log-graph" aria-hidden="true" focusable="false"></svg>
+
+      <details class="job" id="job-netex" data-from="2023.75" data-to="2026.9">
+        <summary>
+          <span class="job-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15m0 0l-6-6m6 6l-6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></svg></span>
+          <span class="job-role">Software Development Engineer</span>
+          <span class="job-co">Netex Learning</span>
+          <span class="job-place" data-i18n="exp.netex.place">Remote</span>
+          <span class="job-date"><span data-i18n="exp.netex.date">Oct 2023 to now</span></span>
+        </summary>
+        <div class="job-body">
+          <ul>
+            <li data-i18n="exp.netex.b1">Technical lead on the evolution of the corporate ERP (Workspace): architectural improvements and performance work.</li>
+            <li data-i18n="exp.netex.b2">Progressive migration from Zend Framework to Laminas with backward compatibility and zero downtime.</li>
+            <li data-i18n="exp.netex.b3">Containerized the development and deployment environment with Docker and Docker Compose.</li>
+            <li data-i18n="exp.netex.b4">Enterprise integrations: HubSpot API, Microsoft Dynamics NAV (SOAP) and Microsoft Sign-In (Azure AD, OAuth 2.0, OpenID Connect) for SSO.</li>
+          </ul>
+          <p class="job-stack">Zend Framework, Laminas, AngularJS, Docker, MySQL, MS SQL Server, HubSpot API, MS Dynamics NAV, Azure AD, REST, SOAP, GitLab, Jira</p>
+        </div>
+      </details>
+
+      <details class="job" id="job-ipgfs" data-from="2023.5" data-to="2023.8">
+        <summary>
+          <span class="job-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15m0 0l-6-6m6 6l-6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></svg></span>
+          <span class="job-role">Full-Stack Developer</span>
+          <span class="job-co">Ipglobal Tech Hub</span>
+          <span class="job-place" data-i18n="exp.ipg.place">A Coruña, hybrid</span>
+          <span class="job-date"><span data-i18n="exp.ipgfs.date">Jul to Oct 2023</span></span>
+        </summary>
+        <div class="job-body">
+          <ul>
+            <li data-i18n="exp.ipgfs.b1">Xavou! food-delivery e-commerce in Laravel and Vue.js, with admin panel and Google Maps geolocation.</li>
+            <li data-i18n="exp.ipgfs.b2">GitLab CI/CD pipelines, JWT authentication and several payment gateways (Stripe, PayPal).</li>
+          </ul>
+          <p class="job-stack">Spring Boot, Angular, Vue.js, GitLab CI/CD, JWT, Stripe, PayPal</p>
+        </div>
+      </details>
+
+      <details class="job" id="job-ipgbe" data-from="2022.5" data-to="2023.5">
+        <summary>
+          <span class="job-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15m0 0l-6-6m6 6l-6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></svg></span>
+          <span class="job-role">Back-End Developer</span>
+          <span class="job-co">Ipglobal Tech Hub</span>
+          <span class="job-place" data-i18n="exp.ipg.place">A Coruña, hybrid</span>
+          <span class="job-date"><span data-i18n="exp.ipgbe.date">Jul 2022 to Jun 2023</span></span>
+        </summary>
+        <div class="job-body">
+          <ul>
+            <li data-i18n="exp.ipgbe.b1">E-commerce platform for digital products with payment gateway and licence management, on Spring Boot with DDD and hexagonal architecture.</li>
+            <li data-i18n="exp.ipgbe.b2">WhatsApp web chat on the Vonage API: session management, message templates and media handling.</li>
+            <li data-i18n="exp.ipgbe.b3">CRM on the Namecheap API, automating domains, SSL/TLS certificates and DNS.</li>
+            <li data-i18n="exp.ipgbe.b4">Real-time Microsoft Teams notifications through Graph API webhooks and Adaptive Cards.</li>
+          </ul>
+          <p class="job-stack">Spring Boot, Laravel, PHP, MySQL, Docker, MS Graph API, Vonage API, Namecheap API</p>
+        </div>
+      </details>
+
+      <details class="job" id="job-elo" data-from="2021.83" data-to="2022.5">
+        <summary>
+          <span class="job-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15m0 0l-6-6m6 6l-6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></svg></span>
+          <span class="job-role" data-i18n="exp.elo.role">Web Developer</span>
+          <span class="job-co">ELO Technologies</span>
+          <span class="job-place" data-i18n="exp.elo.place">Vigo</span>
+          <span class="job-date"><span data-i18n="exp.elo.date">Nov 2021 to Jul 2022</span></span>
+        </summary>
+        <div class="job-body">
+          <ul>
+            <li data-i18n="exp.elo.b1">Custom CMS and CRM in native PHP, with the MVC and Repository patterns.</li>
+            <li data-i18n="exp.elo.b2">REST and SOAP integrations with entertainment platforms, including OAuth, rate limiting and caching.</li>
+            <li data-i18n="exp.elo.b3">Python scraper with automatic IP rotation over VPN and rotating proxies.</li>
+            <li data-i18n="exp.elo.b4">PDF generation microservice with queue workers and CDN storage.</li>
+          </ul>
+          <p class="job-stack">Laravel, PHP 8, MySQL, Python, Selenium, BeautifulSoup, OpenVPN, FPDF, Redis</p>
+        </div>
+      </details>
+
+      <details class="job" id="job-tury" data-from="2021.5" data-to="2021.83">
+        <summary>
+          <span class="job-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15m0 0l-6-6m6 6l-6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></svg></span>
+          <span class="job-role" data-i18n="exp.tury.role">Analyst Programmer</span>
+          <span class="job-co">TuryLogistics</span>
+          <span class="job-place">Galicia</span>
+          <span class="job-date"><span data-i18n="exp.tury.date">Jul to Oct 2021</span></span>
+        </summary>
+        <div class="job-body">
+          <ul>
+            <li data-i18n="exp.tury.b1">Maintained a legacy warehouse-management system, refactoring modules and tuning queries.</li>
+            <li data-i18n="exp.tury.b2">Two-way Amazon Seller Central (SP-API) integration keeping catalogue, orders and stock in sync in real time.</li>
+          </ul>
+          <p class="job-stack">Laravel, PHP 7 and 8, MySQL, Amazon SP-API, XML, REST</p>
+        </div>
+      </details>
+
+      <details class="job" id="job-jor" data-from="2019.67" data-to="2021.0">
+        <summary>
+          <span class="job-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15m0 0l-6-6m6 6l-6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></svg></span>
+          <span class="job-role" data-i18n="exp.jor.role">Web Developer and Database Specialist</span>
+          <span class="job-co">Inversiones Jorinacha</span>
+          <span class="job-place">Caracas</span>
+          <span class="job-date"><span data-i18n="exp.jor.date">Sep 2019 to Jan 2021</span></span>
+        </summary>
+        <div class="job-body">
+          <ul>
+            <li data-i18n="exp.jor.b1">Migrated legacy modules to Laravel under SOLID and MVC, cutting technical debt by more than 60%.</li>
+            <li data-i18n="exp.jor.b2">SQL Server replication (transactional and merge) for high availability and disaster recovery.</li>
+            <li data-i18n="exp.jor.b3">Stored procedures, triggers and advanced T-SQL; SQL Server Agent jobs for index maintenance and backups.</li>
+            <li data-i18n="exp.jor.b4">Two-way integration with the Profit 2K8 ERP through its own APIs and stored procedures.</li>
+          </ul>
+          <p class="job-stack">Laravel, SQL Server 2012 and 2014, T-SQL, Stored Procedures, Replication Services, Profit 2K8 API</p>
+        </div>
+      </details>
+
+      <details class="job" id="job-rg2" data-from="2018.92" data-lane="1" data-fork="job-emb" data-merge="job-elo" data-to="2022.0">
+        <summary>
+          <span class="job-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15m0 0l-6-6m6 6l-6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></svg></span>
+          <span class="job-role" data-i18n="exp.rg2.role">Freelance Web Developer</span>
+          <span class="job-co">Servicios RG2</span>
+          <span class="job-place">Venezuela</span>
+          <span class="job-date"><span data-i18n="exp.rg2.date">Dec 2018 to Jan 2022</span></span>
+        </summary>
+        <div class="job-body">
+          <ul>
+            <li data-i18n="exp.rg2.b1">Independent web development for clients, alongside my in-house roles.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="job" id="job-emb" data-from="2018.75" data-to="2019.05">
+        <summary>
+          <span class="job-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15m0 0l-6-6m6 6l-6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></svg></span>
+          <span class="job-role" data-i18n="exp.emb.role">Systems Analyst</span>
+          <span class="job-co">Embassy Suites</span>
+          <span class="job-place">Caracas</span>
+          <span class="job-date"><span data-i18n="exp.emb.date">Oct 2018 to Jan 2019</span></span>
+        </summary>
+        <div class="job-body">
+          <p data-i18n="exp.emb.desc">Enterprise IT infrastructure, PRTG monitoring, WatchGuard firewall (UTM, site-to-site VPN) and Profit 2K8 ERP support.</p>
+        </div>
+      </details>
+
+      <details class="job" id="job-ban" data-from="2018.25" data-to="2018.75">
+        <summary>
+          <span class="job-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15m0 0l-6-6m6 6l-6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></svg></span>
+          <span class="job-role" data-i18n="exp.ban.role">Help Desk Support Analyst</span>
+          <span class="job-co">Bancaribe</span>
+          <span class="job-place">Caracas</span>
+          <span class="job-date"><span data-i18n="exp.ban.date">Apr to Sep 2018</span></span>
+        </summary>
+        <div class="job-body">
+          <p data-i18n="exp.ban.desc">Level-2 remote support for corporate departments and branches nationwide, with SLA-tracked tickets.</p>
+        </div>
+      </details>
+
+      <div class="job job-static" id="job-edu" data-from="2012" data-to="2019.5">
+        <div class="job-row">
+          <span class="job-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15m0 0l-6-6m6 6l-6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></svg></span>
+          <span class="job-role" data-i18n="exp.edu.role">Computer Engineering</span>
+          <span class="job-co">Universidad Alejandro de Humboldt</span>
+          <span class="job-place">Caracas</span>
+          <span class="job-date">2012 – 2019</span>
+        </div>
+      </div>
+
+      </div>
+
+      <p class="exp-cv">
+        <a data-cv-link class="link" href="https://drive.google.com/file/d/1NSNz3xb3n5yRvxEUv8sly80ucPqWb6rh/view?usp=drive_link"
+          target="_blank" rel="noopener" data-i18n="exp.cv">The full CV, in PDF</a>
+      </p>
+    </section>
+
+    <!-- Work: the project names are the index -->
+    <section class="work" id="work" aria-labelledby="work-title">
+      <h2 id="work-title" class="work-title" data-i18n="work.title">Selected work</h2>
+
+      <div class="work-grid">
+        <ol class="work-list" role="list">
+          <li class="work-item is-active" data-plate="erp">
+            <div class="plate plate-inline" aria-hidden="true"></div>
+            <button type="button" class="work-name">
+              <span data-i18n="work.erp.title">Workspace ERP modernization</span>
+              <span class="work-meta">Netex Learning, 2023</span>
+            </button>
+          </li>
+          <li class="work-item" data-plate="ecom">
+            <div class="plate plate-inline" aria-hidden="true"></div>
+            <button type="button" class="work-name">
+              <span data-i18n="work.ecom.title">Digital products shop</span>
+              <span class="work-meta">Ipglobal Tech Hub, 2022</span>
+            </button>
+          </li>
+          <li class="work-item" data-plate="food">
+            <div class="plate plate-inline" aria-hidden="true"></div>
+            <button type="button" class="work-name">
+              <span data-i18n="work.food.title">Xavou! food delivery</span>
+              <span class="work-meta">Ipglobal Tech Hub, 2023</span>
+            </button>
+          </li>
+          <li class="work-item" data-plate="spapi">
+            <div class="plate plate-inline" aria-hidden="true"></div>
+            <button type="button" class="work-name">
+              <span data-i18n="work.spapi.title">Amazon catalogue sync</span>
+              <span class="work-meta">TuryLogistics, 2021</span>
+            </button>
+          </li>
+          <li class="work-item" data-plate="coffee">
+            <div class="plate plate-inline" aria-hidden="true"></div>
+            <a class="work-name" href="https://eloquent-snyder-e1f05d.netlify.app" target="_blank" rel="noopener">
+              <span>Coffee Blog</span>
+              <span class="work-meta" data-i18n="work.side.coffee">Side project, HTML and SASS</span>
+            </a>
+          </li>
+          <li class="work-item" data-plate="estate">
+            <div class="plate plate-inline" aria-hidden="true"></div>
+            <a class="work-name" href="https://gifted-fermat-d6d526.netlify.app/" target="_blank" rel="noopener">
+              <span>Bienes Raíces</span>
+              <span class="work-meta" data-i18n="work.side.estate">Side project, PHP</span>
+            </a>
+          </li>
+          <li class="work-item" data-plate="store">
+            <div class="plate plate-inline" aria-hidden="true"></div>
+            <a class="work-name" href="https://cyberblock.github.io/FrontendStore/" target="_blank" rel="noopener">
+              <span>Frontend Store</span>
+              <span class="work-meta" data-i18n="work.side.store">Side project, JavaScript</span>
+            </a>
+          </li>
+        </ol>
+
+        <div class="work-frame">
+          <div class="plate is-active" id="plate-erp">
+            <p class="plate-lead" data-i18n="work.erp.desc">A corporate ERP moved from Zend Framework to Laminas with full backward compatibility and zero downtime, alongside a containerized environment and SSO through Azure AD.</p>
+            <p class="plate-stack">Laminas, Zend Framework, Docker, Azure AD, OIDC, HubSpot API, MS Dynamics NAV</p>
+          </div>
+          <div class="plate" id="plate-ecom">
+            <p class="plate-lead" data-i18n="work.ecom.desc">Sales platform for digital products with payments and licence management, on Spring Boot, with DDD and a hexagonal architecture that keeps payment providers at the edges.</p>
+            <p class="plate-stack">Spring Boot, DDD, Hexagonal, Stripe, PayPal, JWT</p>
+          </div>
+          <div class="plate" id="plate-food">
+            <p class="plate-lead" data-i18n="work.food.desc">Food-delivery marketplace in Laravel and Vue.js, with a full restaurant admin panel and a Google Maps layer for delivery zones and order tracking.</p>
+            <p class="plate-stack">Laravel, Vue.js, MySQL, Google Maps API, GitLab CI/CD</p>
+          </div>
+          <div class="plate" id="plate-spapi">
+            <p class="plate-lead" data-i18n="work.spapi.desc">Two-way integration with Amazon Seller Central that keeps catalogue, orders and stock in sync, in real time, against a legacy warehouse system.</p>
+            <p class="plate-stack">Amazon SP-API, Laravel, PHP 8, XML, MySQL</p>
+          </div>
+          <div class="plate" id="plate-coffee">
+            <img src="assets/img/portfolio/portfolio-1.jpg" width="1200" height="825" loading="lazy" alt="Cup of coffee on a sack of beans, from the Coffee Blog">
+            <p class="plate-stack" data-i18n="work.side.coffee.desc">A static blog about coffee, built with HTML and SASS.</p>
+          </div>
+          <div class="plate" id="plate-estate">
+            <img src="assets/img/portfolio/portfolio-2.jpg" width="1200" height="825" loading="lazy" alt="Modern white house, from the Bienes Raíces listings site">
+            <p class="plate-stack" data-i18n="work.side.estate.desc">Real-estate listings with a PHP back end.</p>
+          </div>
+          <div class="plate" id="plate-store">
+            <img src="assets/img/portfolio/portfolio-3.jpg" width="1200" height="825" loading="lazy" alt="Black T-shirt with a React logo, from the Frontend Store">
+            <p class="plate-stack" data-i18n="work.side.store.desc">A storefront interface in plain JavaScript.</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="work-more">
+        <a class="link" href="https://github.com/cyberblock" target="_blank" rel="noopener" data-i18n="work.more">More on GitHub</a>
+      </p>
+    </section>
+
+    <!-- Services and stack: calm text after the loud parts -->
+    <section class="offer" id="services" aria-labelledby="offer-title">
+      <div class="offer-col">
+        <h2 id="offer-title" data-i18n="services.title">What I take on</h2>
+        <dl class="offer-list">
+          <div>
+            <dt data-i18n="services.legacy.title">Legacy modernization</dt>
+            <dd data-i18n="services.legacy.desc">Framework migrations with backward compatibility, so the platform keeps running while it moves forward.</dd>
+          </div>
+          <div>
+            <dt data-i18n="services.api.title">API integration</dt>
+            <dd data-i18n="services.api.desc">REST and SOAP integrations with ERPs, CRMs, identity providers and payment gateways, OAuth 2.0 and SSO included.</dd>
+          </div>
+          <div>
+            <dt data-i18n="services.fullstack.title">Full-stack development</dt>
+            <dd data-i18n="services.fullstack.desc">Web platforms end to end: Laravel, Spring Boot or Laminas behind, Angular, Vue or React in front.</dd>
+          </div>
+          <div>
+            <dt data-i18n="services.db.title">Databases and performance</dt>
+            <dd data-i18n="services.db.desc">Query optimization, stored procedures and SQL Server replication for high availability.</dd>
+          </div>
+          <div>
+            <dt data-i18n="services.docker.title">Docker and CI/CD</dt>
+            <dd data-i18n="services.docker.desc">Containerized environments and GitLab pipelines that make deployments repeatable and boring.</dd>
+          </div>
+          <div>
+            <dt data-i18n="services.scraping.title">Scraping and automation</dt>
+            <dd data-i18n="services.scraping.desc">Python extraction pipelines with proxy rotation and queue workers.</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="offer-col offer-stack">
+        <h2 data-i18n="skills.title">The stack I ship with</h2>
+        <p><strong>Backend.</strong> PHP 8, Laravel, Spring Boot, Laminas, Zend Framework, Node.js, Python.</p>
+        <p><strong>Frontend.</strong> Angular, Vue.js, React, AngularJS, TypeScript, JavaScript, Tailwind CSS, Bootstrap, SASS, jQuery.</p>
+        <p><strong data-i18n="skills.cat.architecture">Architecture.</strong> DDD, Hexagonal, <span data-i18n="skills.microservices">Microservices</span>, REST, SOAP, MVC, Repository, SOLID.</p>
+        <p><strong data-i18n="skills.cat.databases">Databases.</strong> SQL Server, MySQL, PostgreSQL, T-SQL, <span data-i18n="skills.db.rest">stored procedures, replication, query tuning.</span></p>
+        <p><strong data-i18n="skills.cat.devops">DevOps and tools.</strong> Docker, Docker Compose, GitLab CI/CD, Git Flow, Linux, Nginx, Apache, Jira, Postman.</p>
+        <p><strong data-i18n="skills.cat.apis">APIs.</strong> OAuth 2.0, JWT, Azure AD, MS Graph, MS Dynamics NAV, HubSpot, Amazon SP-API, Vonage, Namecheap, Stripe, PayPal.</p>
+      </div>
+    </section>
+
+    <!-- Contact: the addresses, in display rows -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title" class="sr-only" data-i18n="contact.title">Contact</h2>
+      <ul class="rows">
+        <li><a href="https://www.linkedin.com/in/lazaro-perez-sd/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/cyberblock" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.behance.net/engineerljpr" target="_blank" rel="noopener">Behance</a></li>
+        <li><span data-i18n="contact.place">Coruña, or remote</span></li>
+        <li><a data-cv-link href="https://drive.google.com/file/d/1NSNz3xb3n5yRvxEUv8sly80ucPqWb6rh/view?usp=drive_link" target="_blank" rel="noopener" data-i18n="contact.cv">CV in PDF</a></li>
+        <li class="rows-hello">
+          <span data-i18n="contact.hello">Hola</span>
+          <a class="round" href="https://www.linkedin.com/in/lazaro-perez-sd/" target="_blank" rel="noopener">
+            <span class="sr-only" data-i18n="contact.cta">Write to me on LinkedIn</span>
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14m0 0l-6-6m6 6l-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- Footer: an invitation over the cropped name -->
+  <footer class="foot">
+    <div class="foot-top">
+      <div class="foot-invite">
+        <p class="foot-line" data-i18n="footer.invite">Got a system that can’t stop?</p>
+        <a class="button" href="https://www.linkedin.com/in/lazaro-perez-sd/" target="_blank" rel="noopener" data-i18n="footer.cta">Write to me on LinkedIn</a>
+      </div>
+      <ul class="foot-links">
+        <li><a class="link" href="https://www.linkedin.com/in/lazaro-perez-sd/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a class="link" href="https://github.com/cyberblock" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a class="link" href="https://www.behance.net/engineerljpr" target="_blank" rel="noopener">Behance</a></li>
+        <li><a class="link" data-cv-link href="https://drive.google.com/file/d/1NSNz3xb3n5yRvxEUv8sly80ucPqWb6rh/view?usp=drive_link" target="_blank" rel="noopener" data-i18n="footer.cv">CV</a></li>
+      </ul>
+    </div>
+    <div class="foot-legal">
+      <p>&copy; <span id="yearCurrent">2026</span> Lázaro Pérez. <span data-i18n="footer.credits">Designed and built by me.</span></p>
+      <p class="credits"><span data-i18n="footer.pictures">Pictures:</span> <a href="https://commons.wikimedia.org/w/index.php?curid=1944019">“A coruna torre de hercules sunset”</a> by Alessio Damato, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>; <a href="https://commons.wikimedia.org/wiki/File:Torre_de_H%C3%A9rcules,_La_Coru%C3%B1a,_Espa%C3%B1a,_2015-09-24,_DD_12-15_PAN.JPG">“Torre de Hércules, La Coruña”</a> by Diego Delso, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>; via Wikimedia Commons.</p>
+    </div>
+    <p class="foot-name" aria-hidden="true">Lázaro Pérez</p>
+  </footer>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+
+</html>
