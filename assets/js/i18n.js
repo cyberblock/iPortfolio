@@ -121,6 +121,9 @@
     'work.side.estate.desc': 'Listado inmobiliario con back end en PHP.',
     'work.side.store': 'Proyecto personal, JavaScript',
     'work.side.store.desc': 'Interfaz de tienda en JavaScript puro.',
+    'work.side.periodic.title': 'Tabla periódica 3D',
+    'work.side.periodic': 'Proyecto personal, three.js',
+    'work.side.periodic.desc': 'Los 118 elementos en 3D con three.js. Al tocar uno ves su átomo: el núcleo con sus protones y neutrones, y los electrones girando en sus capas.',
     'work.more': 'Más en GitHub',
 
     'services.title': 'Qué hago',
